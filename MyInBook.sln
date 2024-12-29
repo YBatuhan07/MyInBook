@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook", "MyInBook\MyInBook.csproj", "{DA98A441-107D-4944-ACFF-6D92C90E664F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook.Web", "MyInBook\MyInBook.Web.csproj", "{DA98A441-107D-4944-ACFF-6D92C90E664F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook.Core", "MyInBook.Core\MyInBook.Core.csproj", "{4F5C5812-6746-4277-A985-5145849C02E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook.Data", "MyInBook.Data\MyInBook.Data.csproj", "{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DA98A441-107D-4944-ACFF-6D92C90E664F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA98A441-107D-4944-ACFF-6D92C90E664F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA98A441-107D-4944-ACFF-6D92C90E664F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5C5812-6746-4277-A985-5145849C02E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5C5812-6746-4277-A985-5145849C02E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5C5812-6746-4277-A985-5145849C02E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5C5812-6746-4277-A985-5145849C02E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

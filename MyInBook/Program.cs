@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using MyInBook.Data;
+
 namespace MyInBook
 {
     public class Program
@@ -8,6 +11,7 @@ namespace MyInBook
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<MyInBookDatabaseContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConntection")));
 
             var app = builder.Build();
 
