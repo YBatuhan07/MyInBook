@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyInBook.Core\MyInBook.Core.csproj" />
+    <ProjectReference Include="..\MyInBook.Data\MyInBook.Data.csproj" />
+  </ItemGroup>
+
+</Project>

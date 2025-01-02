@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook.Core", "MyInBook.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook.Data", "MyInBook.Data\MyInBook.Data.csproj", "{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInBook.Business", "MyInBook.Business\MyInBook.Business.csproj", "{880C973F-F856-428F-B926-93C138EF7828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B250A5A-282A-44AB-B9F2-5E9582C0CCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880C973F-F856-428F-B926-93C138EF7828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880C973F-F856-428F-B926-93C138EF7828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880C973F-F856-428F-B926-93C138EF7828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880C973F-F856-428F-B926-93C138EF7828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

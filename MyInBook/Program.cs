@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using MyInBook.Business.Abstract;
+using MyInBook.Business.Concrete;
 using MyInBook.Data;
+using MyInBook.Data.Repositories;
 
 namespace MyInBook
 {
@@ -11,6 +14,8 @@ namespace MyInBook
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<IBookService,BookService>();
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
             builder.Services.AddDbContext<MyInBookDatabaseContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConntection")));
 
             var app = builder.Build();
