@@ -1,7 +1,7 @@
 ﻿using MyInBook.Business.Abstract;
 using MyInBook.Core.MyEntities;
 using MyInBook.Data;
-using MyInBook.Data.Repositories;
+using MyInBook.Data.Repositories.BookRepositories;
 using System.Net;
 
 namespace MyInBook.Business.Concrete;

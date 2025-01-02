@@ -1,6 +1,6 @@
 ﻿using MyInBook.Core.MyEntities;
 
-namespace MyInBook.Data.Repositories;
+namespace MyInBook.Data.Repositories.BookRepositories;
 
 public class BookRepository : BaseRepository<Book>, IBookRepository
 {

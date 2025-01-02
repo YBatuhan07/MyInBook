@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using MyInBook.Business.Abstract;
 using MyInBook.Business.Concrete;
 using MyInBook.Data;
-using MyInBook.Data.Repositories;
+using MyInBook.Data.Repositories.BookRepositories;
 
 namespace MyInBook
 {
